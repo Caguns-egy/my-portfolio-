@@ -7,6 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // Change this to your exact repo name!
+  // We are replacing the placeholder with your actual repo name here!
   base: "/my-portfolio-/", 
 })
