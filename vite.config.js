@@ -7,8 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // REMEMBER: Change this to match your exact GitHub repository name!
-  // Example: if your repo is github.com/Caguns-egy/my-portfolio-
-  // Then this should be: base: "/my-portfolio-/",
-  base: "/YOUR-NEW-REPO-NAME/", 
+  // Change this to your exact repo name!
+  base: "/my-portfolio-/", 
 })
