@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This ensures the background color transitions smoothly */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-white transition-colors duration-500;
+  margin: 0;
+  font-family: sans-serif;
+}
+
