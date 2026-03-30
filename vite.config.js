@@ -7,6 +7,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  // We are replacing the placeholder with your actual repo name here!
-  base: "/my-portfolio-/", 
+  // The Silver Bullet: Use relative paths
+  base: "./", 
 })
